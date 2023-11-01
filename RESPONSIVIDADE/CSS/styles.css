@@ -1,0 +1,23 @@
+/* Media Query */
+h1{
+    color: orangered;
+}
+
+p{
+    background-color: aquamarine;
+    color: black;
+}
+
+/* Responsividade */
+@media screen and (max-width: 500px) {
+    h1{
+        color: greenyellow;
+    }
+}
+
+@media screen and (min-width: 800px){
+    p{
+        background-color: black;
+        color: yellow;
+    }
+}

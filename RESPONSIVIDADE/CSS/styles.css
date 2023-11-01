@@ -8,6 +8,10 @@ p{
     color: black;
 }
 
+h2{
+    display: none;
+}
+
 /* Responsividade */
 @media screen and (max-width: 500px) {
     h1{
@@ -19,5 +23,11 @@ p{
     p{
         background-color: black;
         color: yellow;
+    }
+}
+
+@media screen and (orientation: landscape){
+    h2{
+        display: block;
     }
 }
